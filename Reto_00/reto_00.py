@@ -1,42 +1,42 @@
-#  * EJERCICIO:
-
-#  * - Crea un comentario en el código y coloca la URL del sitio web oficial del
-#  *   lenguaje de programación que has seleccionado.
-#  * - Representa las diferentes sintaxis que existen de crear comentarios
-#  *   en el lenguaje (en una línea, varias...).
-#  * - Crea una variable (y una constante si el lenguaje lo soporta).
-#  * - Crea variables representando todos los tipos de datos primitivos
-#  *   del lenguaje (cadenas de texto, enteros, booleanos...).
-#  * - Imprime por terminal el texto: "¡Hola, [y el nombre de tu lenguaje]!"
-#  *
-#  * ¿Fácil? No te preocupes, recuerda que esta es una ruta de estudio y
-#  * debemos comenzar por el principio.
-#  */
 
 #https://www.python.org/
 
-print('estas son las siguientes: ')
+# comentario de una linea
 
 """
 
-1
+comentario de varias lineas
 
 """
-'''2'''
+
+'''
+
+multi-line comment
+
+'''
 #3
 
-variable = 3
-variable = 4
-#no hay constantes en python
+variable = 'uy'
 
-a:str = 'Adrs'
+# no hay constantes en python pero se usa est sintaxis
+CONSTANTE = 'UPS'
+
+# tipos de datos
+a:str = 'String 1'
 b:int = 423
 c:float = 15.3
 d:bool = True
+e:bool = False
+f:str = "String 2"
+g:str = f'String 3'
 
+# imprimir que tipo de dato es cada uno
 print(type(a))
 print(type(b))
 print(type(c))
 print(type(d))
+print(type(e))
+print(type(f))
+print(type(g))
 
 print("¡Hola, Python!")
