@@ -27,7 +27,7 @@ def factorial(number: int) -> int:
 
 
 print(factorial(5))
-
+print('')
 
 def fibonacci(number: int) -> int:
     if number <= 0:
@@ -38,7 +38,11 @@ def fibonacci(number: int) -> int:
     elif number == 2:
         return 1
     else:
+        a = number
+        print(f'({number} - 1) + ({number} - 2)')
+        print(f'{a - 1} + {a - 2}')
+        print(''.center(10,'-'))
         return fibonacci(number - 1) + fibonacci(number - 2)
 
 
-print(fibonacci(5))
+print(fibonacci(9))
